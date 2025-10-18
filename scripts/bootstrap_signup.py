@@ -1,3 +1,6 @@
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 # tests/test_signup_and_save_session.py
 import os
 import time

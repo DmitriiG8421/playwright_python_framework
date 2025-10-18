@@ -2,6 +2,7 @@
 from playwright.sync_api import Page, expect
 
 class SignupPage:
+    
     URL = "https://faruk-hasan.com/automation/signup.html"
 
     def __init__(self, page: Page):
